@@ -59,13 +59,16 @@ a:hover {
 }
 
 .logo {
- width: 32px;              /* Very small size */
+ display: flex;
+  align-items: center;
+  padding: 0 1rem; /* spacing from left/right */
+}
+
+.logo img {
+  width: 32px;
   height: 32px;
-  border-radius: 50%;       /* Makes it perfectly circular */
-  object-fit: cover;        /* Keeps the image from stretching */
-  cursor: pointer;          /* Shows pointer when you hover */
-  border: 1px solid #ccc;   /* Optional: subtle border */
-  transition: transform 0.2s ease;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .logo:hover {
