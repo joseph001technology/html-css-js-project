@@ -120,5 +120,8 @@
     text-align: justify;
   }
 
- 
+ .about-pic {
+    max-width: 80vw;
+    border-radius: 1.5rem;
+  } 
 }
