@@ -59,11 +59,17 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  width: 50px;         /* Adjust size as needed */
+  height: 50px;
+  object-fit: cover;   /* Ensures image fills the round shape */
+  border-radius: 50%;  /* Makes it circular */
+  border: 2px solid #ccc; /* Optional border */
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 .logo:hover {
-  cursor: default;
+  transform: scale(1.05); 
 }
 
 /* HAMBURGER MENU */
